@@ -7,7 +7,10 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Descrição 🤔
-- O projeto consiste em uma landing-page de um e-commerce de relógios, utilizando HTML, CSS, JS, SASS e Bootstrap. Eu utilizei o SASS, que é um pré-processador de CSS, a fim de escrever o código CSS de forma mais limpa e lógica. A página utiliza diversos layouts, como row e col, container, container-fluid, e componentes do Bootstrap, como sliders(ou carousels), cards, buttons, navbars. O projeto é completamente responsivo, se ajustando das menores até as maiores resoluções de dispositivos disponíveis. 
+- O projeto consiste em uma landing-page de um e-commerce de relógios, utilizando HTML, CSS, JS, SASS e Bootstrap. Eu utilizei o SASS, que é um pré-processador de CSS, a fim de escrever o código CSS de forma mais limpa e lógica. A página utiliza diversos layouts, como row e col, container, container-fluid, e componentes do Bootstrap, como sliders(ou carousels), cards, buttons, navbars. O projeto é completamente responsivo, se ajustando das menores até as maiores resoluções de dispositivos disponíveis.
+
+## Link do site
+-> https://fernandocanabarroahnert.github.io/landing-page-sass-bootstrap/
 
 ## Tecnologias 💻
  
