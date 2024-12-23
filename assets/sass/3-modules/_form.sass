@@ -1,0 +1,21 @@
+@use '../1-base/_base-mixins'
+@use '../1-base/_variables'
+@use '../2-layouts/layouts-mixins'
+
+form
+    position: relative
+    i
+        position: absolute
+        top: .5rem
+        left: .625rem
+        cursor: pointer
+    .form-control
+        border-top-right-radius: 0
+        border-bottom-right-radius: 0
+        padding-left: 2rem
+        &:focus
+            box-shadow: none
+            border-color: variables.$primary-color
+    .btn-outline-primary
+                border-top-left-radius: 0
+                border-bottom-left-radius: 0

@@ -1,0 +1,57 @@
+@use '../1-base/_base-mixins'
+@use '../1-base/_variables'
+@use '../2-layouts/layouts-mixins'
+
+.mini-banner
+    position: relative
+    z-index: 10
+    padding: 1.5rem
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 18.75rem
+    @include base-mixins.min-992
+        flex-basis: 30%
+        border-radius: 1.5rem
+    h2
+        text-transform: uppercase
+        font-size: 2.2rem
+        font-weight: 700
+        width: 3.125rem
+    img
+        position: absolute
+        height: 13.75rem
+        right: .75rem
+        bottom: 1rem
+        @include base-mixins.min-768
+            height: 14.375rem
+            right: 2.325rem
+        @include base-mixins.min-992
+            height: 11.25rem
+            right: .75rem
+        @include base-mixins.min-1200
+            height: 13.75rem
+            right: .75rem
+    a
+        text-decoration: none
+        cursor: pointer
+        font-weight: 600
+        transition: .3s ease-in-out
+
+#mini-banner-1
+    a
+        color: variables.$light-color
+        &:hover
+            color: variables.$primary-color
+#mini-banner-2
+    a
+        color: variables.$light-color
+        &:hover
+            color: #2c2c2c
+#mini-banner-3
+    h2
+        color: variables.$secondary-color
+    a
+        color: variables.$secondary-color
+        &:hover
+            color: variables.$primary-color

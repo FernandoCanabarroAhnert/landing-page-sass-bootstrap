@@ -1,0 +1,40 @@
+@use 'variables'
+@use 'base-mixins'    
+
+*
+    margin: 0
+    padding: 0
+    vertical-align: baseline
+    box-sizing: border-box
+    list-style: none
+    text-decoration: none
+    font-family: 'Montserrat'
+
+body
+    background-color: #252525
+    color: #FFF
+
+ul
+    padding: 0
+    margin: 0
+
+.btn-outline-primary
+    color: variables.$primary-color
+    border-color: variables.$primary-color
+    transition: .3s ease-in-out
+    &:hover
+        background-color: variables.$primary-color
+        color: variables.$light-color
+        border-color: variables.$primary-color
+
+.title
+    text-transform: uppercase
+    font-size: 2.5rem
+    font-weight: 900
+    color: variables.$primary-color
+    margin-bottom: 1.75rem
+    text-align: center
+    @include base-mixins.min-768
+        text-align: start
+
+

@@ -1,0 +1,584 @@
+.primary-bg-color {
+  background-color: #252525;
+}
+
+.secondary-bg-color {
+  background-color: #c09578;
+}
+
+.light-bg-color {
+  background-color: #fcf5eb;
+}
+
+.dark-bg-color {
+  background-color: #101010;
+}
+
+.primary-color {
+  color: #c09578;
+}
+
+.secondary-color {
+  color: #626262;
+}
+
+.light-color {
+  color: #fcf5eb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+body {
+  background-color: #252525;
+  color: #FFF;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.btn-outline-primary {
+  color: #c09578;
+  border-color: #c09578;
+  transition: 0.3s ease-in-out;
+}
+.btn-outline-primary:hover {
+  background-color: #c09578;
+  color: #fcf5eb;
+  border-color: #c09578;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #c09578;
+  margin-bottom: 1.75rem;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .title {
+    text-align: start;
+  }
+}
+
+header .navbar .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  header .navbar .container {
+    flex-direction: row;
+  }
+}
+header .navbar-brand {
+  color: #fcf5eb;
+  font-weight: 700;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+header .navbar-brand:hover {
+  color: #fcf5eb;
+}
+header .navbar-brand i {
+  font-size: 1.75rem;
+  margin-right: 0.5rem;
+}
+header .navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.875rem;
+}
+header .navbar-nav i {
+  font-size: 1.375rem;
+  color: #fcf5eb;
+  transition: 0.3s ease-in-out;
+}
+header .navbar-nav i:hover {
+  color: #c09578;
+}
+
+.nav-bottom .navbar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .nav-bottom .navbar-nav {
+    flex-direction: row;
+  }
+}
+.nav-bottom .navbar-nav .nav-item a {
+  color: #fcf5eb;
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+}
+.nav-bottom .navbar-nav .nav-item a:hover {
+  color: #626262;
+}
+
+#banners .carousel-item img {
+  height: 26, 5625rem;
+}
+@media (min-width: 768px) {
+  #banners .carousel-item img {
+    height: 37.5rem;
+  }
+}
+#banners .carousel-caption {
+  background-color: #3d3d3d;
+  width: 70%;
+  margin-bottom: 3rem;
+}
+@media (min-width: 992px) {
+  #banners .carousel-caption {
+    border-radius: 1.5rem;
+    width: 55%;
+  }
+  #banners .carousel-caption h3 {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 1200px) {
+  #banners .carousel-caption h3 {
+    font-size: 4rem;
+  }
+  #banners .carousel-caption p {
+    margin-bottom: 0;
+  }
+}
+
+.mini-banners {
+  margin-top: -3rem;
+  z-index: 10;
+}
+
+#best-sellers {
+  padding: 4rem 0;
+}
+
+#offer-banner {
+  padding: 4rem;
+  text-align: center;
+}
+#offer-banner .banner-subtitle, #offer-banner h2, #offer-banner a {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#offer-banner a {
+  margin: 2rem;
+  padding: 1.5rem;
+}
+#offer-banner img {
+  width: 11.25rem;
+}
+#offer-banner h2 {
+  font-size: 3rem;
+}
+@media (min-width: 768px) {
+  #offer-banner h2 {
+    font-size: 5.25rem;
+  }
+}
+@media (min-width: 992px) {
+  #offer-banner h2 {
+    font-size: 6.5rem;
+  }
+}
+
+#new-products h2 {
+  margin: 3rem 0;
+}
+#new-products-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#new-products-banner h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+@media (min-width: 992px) {
+  #new-products-banner h3 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  #new-products-banner h3 {
+    font-size: 2.5rem;
+  }
+}
+#new-products .card > img {
+  width: 6.25rem;
+  height: 10.625rem;
+}
+
+#bottom-gallery {
+  margin-top: 5rem;
+}
+
+#footer #footer-top {
+  border-bottom: 1px solid #626262;
+}
+#footer #newsletter-footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  border-bottom: 1px solid #626262;
+}
+#footer #newsletter-footer form {
+  margin-bottom: 2rem;
+}
+#footer #newsletter-footer form input {
+  background-color: transparent;
+  color: #FFF;
+  font-size: 1.2rem;
+}
+#footer #newsletter-footer form input::placeholder {
+  color: #FFF;
+}
+#footer #newsletter-footer form span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+#footer #newsletter-footer form i {
+  top: 0.45rem;
+  left: 1.25rem;
+  font-size: 1.2rem;
+}
+#footer #newsletter-footer .social-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+#footer #newsletter-footer .social-links li i {
+  font-size: 1.75rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+#footer #newsletter-footer .social-links li i:hover {
+  color: #c09578;
+}
+#footer #copyright-footer {
+  text-align: center;
+  padding: 2.5rem;
+}
+#footer #copyright-footer p {
+  margin: 0;
+}
+
+.qty-info {
+  position: absolute;
+  top: -2px;
+  right: -10px;
+  background-color: red;
+  color: #FFF;
+  width: 1.2rem;
+  height: 1.2rem;
+  border-radius: 50%;
+  padding: 0.2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .qty-info {
+    top: -2px;
+    right: -4px;
+  }
+}
+
+.mini-banner {
+  position: relative;
+  z-index: 10;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18.75rem;
+}
+@media (min-width: 992px) {
+  .mini-banner {
+    flex-basis: 30%;
+    border-radius: 1.5rem;
+  }
+}
+.mini-banner h2 {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  font-weight: 700;
+  width: 3.125rem;
+}
+.mini-banner img {
+  position: absolute;
+  height: 13.75rem;
+  right: 0.75rem;
+  bottom: 1rem;
+}
+@media (min-width: 768px) {
+  .mini-banner img {
+    height: 14.375rem;
+    right: 2.325rem;
+  }
+}
+@media (min-width: 992px) {
+  .mini-banner img {
+    height: 11.25rem;
+    right: 0.75rem;
+  }
+}
+@media (min-width: 1200px) {
+  .mini-banner img {
+    height: 13.75rem;
+    right: 0.75rem;
+  }
+}
+.mini-banner a {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s ease-in-out;
+}
+
+#mini-banner-1 a {
+  color: #fcf5eb;
+}
+#mini-banner-1 a:hover {
+  color: #c09578;
+}
+
+#mini-banner-2 a {
+  color: #fcf5eb;
+}
+#mini-banner-2 a:hover {
+  color: #2c2c2c;
+}
+
+#mini-banner-3 h2 {
+  color: #626262;
+}
+#mini-banner-3 a {
+  color: #626262;
+}
+#mini-banner-3 a:hover {
+  color: #c09578;
+}
+
+.card {
+  padding: 1.25rem;
+  gap: 1rem;
+  background-color: transparent;
+  border-radius: 0;
+  text-align: center;
+}
+.card img {
+  width: 8.75rem;
+  align-self: center;
+  margin: 1.5rem 0;
+}
+.card-category {
+  color: #626262;
+  margin-bottom: 1rem;
+}
+.card-title {
+  color: #fcf5eb;
+  margin-bottom: 1rem;
+}
+.card-text {
+  color: #c09578;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+#img-1 {
+  background-image: url("../img/insta1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14.0625rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 4px solid transparent;
+}
+#img-1:hover {
+  border: 4px solid #c09578;
+}
+
+#img-2 {
+  background-image: url("../img/insta2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14.0625rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 4px solid transparent;
+}
+#img-2:hover {
+  border: 4px solid #c09578;
+}
+
+#img-3 {
+  background-image: url("../img/insta3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14.0625rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 4px solid transparent;
+}
+#img-3:hover {
+  border: 4px solid #c09578;
+}
+
+#img-4 {
+  background-image: url("../img/insta4.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14.0625rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 4px solid transparent;
+}
+#img-4:hover {
+  border: 4px solid #c09578;
+}
+
+#img-5 {
+  background-image: url("../img/insta5.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14.0625rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 4px solid transparent;
+}
+#img-5:hover {
+  border: 4px solid #c09578;
+}
+
+#img-6 {
+  background-image: url("../img/insta6.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 14.0625rem;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  border: 4px solid transparent;
+}
+#img-6:hover {
+  border: 4px solid #c09578;
+}
+
+.footer-top-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.footer-top-card h2 {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.footer-top-card:nth-child(2) h2 {
+  font-weight: 900;
+  justify-self: flex-start;
+}
+@media (min-width: 768px) {
+  .footer-top-card:nth-child(2) {
+    border-left: 1px solid #626262;
+    border-right: 1px solid #626262;
+  }
+}
+.footer-top-card ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+.footer-top-card ul li {
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.footer-top-card ul li:hover {
+  color: #c09578;
+}
+.footer-top-card .phone-number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+@media (min-width: 768px) {
+  .footer-top-card .phone-number {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 992px) {
+  .footer-top-card .phone-number {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1200px) {
+  .footer-top-card .phone-number {
+    font-size: 2rem;
+  }
+}
+.footer-top-card .phone-number i {
+  margin-right: 0.5rem;
+}
+
+form {
+  position: relative;
+}
+form i {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.625rem;
+  cursor: pointer;
+}
+form .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  padding-left: 2rem;
+}
+form .form-control:focus {
+  box-shadow: none;
+  border-color: #c09578;
+}
+form .btn-outline-primary {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

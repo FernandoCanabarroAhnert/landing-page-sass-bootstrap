@@ -1,0 +1,16 @@
+@use '../1-base/_variables'
+@use '../1-base/base-mixins'
+@use 'layouts-mixins'
+
+.nav-bottom
+    .navbar-nav
+        @include layouts-mixins.column-center
+        @include base-mixins.min-768
+            flex-direction: row
+        .nav-item
+            a
+                color: variables.$light-color
+                font-weight: 600
+                transition: .5s ease-in-out
+                &:hover
+                    color: variables.$secondary-color

@@ -1,0 +1,24 @@
+@use '../1-base/_base-mixins'
+@use '../1-base/_variables'
+@use '../2-layouts/layouts-mixins'
+
+.card
+    padding: 1.25rem
+    gap: 1rem
+    background-color: transparent
+    border-radius: 0
+    text-align: center
+    img
+        width: 8.75rem
+        align-self: center
+        margin: 1.5rem 0
+    &-category
+        color: variables.$secondary-color
+        margin-bottom: 1rem
+    &-title
+        color: variables.$light-color
+        margin-bottom: 1rem
+    &-text
+        color: variables.$primary-color
+        font-weight: 600
+        margin-bottom: 1rem

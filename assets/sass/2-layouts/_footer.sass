@@ -1,0 +1,40 @@
+@use '../1-base/_variables'
+@use '../1-base/base-mixins'
+@use 'layouts-mixins'
+
+#footer
+    #footer-top
+        border-bottom: 1px solid variables.$secondary-color
+    #newsletter-footer
+        text-align: center
+        padding: 3rem 1rem
+        border-bottom: 1px solid variables.$secondary-color
+        form
+            margin-bottom: 2rem
+            input
+                background-color: transparent
+                color: #FFF
+                font-size: 1.2rem
+                &::placeholder
+                    color: #FFF
+            span
+                @include layouts-mixins.row-center
+                font-size: 1.2rem
+            i
+                top: .45rem
+                left: 1.25rem
+                font-size: 1.2rem
+        .social-links
+            @include layouts-mixins.row-center
+            gap: 1rem
+            li i
+                font-size: 1.75rem
+                cursor: pointer
+                transition: .3s ease-in-out
+                &:hover
+                    color: variables.$primary-color
+    #copyright-footer
+        text-align: center
+        padding: 2.5rem
+        p
+            margin: 0            

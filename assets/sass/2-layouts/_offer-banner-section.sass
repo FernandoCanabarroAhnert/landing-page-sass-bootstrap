@@ -1,0 +1,21 @@
+@use '../1-base/_variables'
+@use '../1-base/base-mixins'
+@use 'layouts-mixins'
+
+#offer-banner
+    padding: 4rem
+    text-align: center
+    .banner-subtitle, h2, a
+        text-transform: uppercase
+        font-weight: bold
+    a
+        margin: 2rem
+        padding: 1.5rem
+    img
+        width: 11.25rem
+    h2
+        font-size: 3rem
+        @include base-mixins.min-768
+            font-size: 5.25rem
+        @include base-mixins.min-992
+            font-size: 6.5rem

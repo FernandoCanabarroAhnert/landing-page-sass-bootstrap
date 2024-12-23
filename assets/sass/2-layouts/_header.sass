@@ -1,0 +1,33 @@
+@use '../1-base/_variables'
+@use '../1-base/base-mixins'
+@use 'layouts-mixins'
+
+header
+    .navbar
+        .container
+            display: flex
+            flex-direction: column
+            text-align: center
+            gap: 1rem
+            @include base-mixins.min-768
+                flex-direction: row
+        &-brand
+            color: variables.$light-color
+            font-weight: 700
+            font-size: 1.5rem
+            @include layouts-mixins.row-center
+            &:hover
+                color: variables.$light-color
+            i
+                font-size: 1.75rem
+                margin-right: .5rem
+        &-nav
+            @include layouts-mixins.row-center
+            gap: .875rem
+            i
+                font-size: 1.375rem
+                color: variables.$light-color
+                transition: .3s ease-in-out
+                &:hover
+                    color: variables.$primary-color
+
