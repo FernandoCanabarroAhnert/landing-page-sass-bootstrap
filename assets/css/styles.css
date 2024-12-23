@@ -194,12 +194,12 @@ header .navbar-nav i:hover {
 }
 @media (min-width: 768px) {
   #offer-banner h2 {
-    font-size: 5.25rem;
+    font-size: 5rem;
   }
 }
 @media (min-width: 992px) {
   #offer-banner h2 {
-    font-size: 6.5rem;
+    font-size: 6.125rem;
   }
 }
 
